@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+.v-center{
+    margin-top: 200px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+h1 {
+    font-size: 1.4em;
+    font-weight: 600;
+    height: 30px;
+    align-self: center;
+}
+img{
+    width: 280px;
+
+}
+.article{
+    width: 300px;
+    margin: 0 1em;
+  color: rgb(255, 255, 255);
+  perspective: 1000px;
+  position: relative;
+  text-align: center;
+  border: red 1px solid;
+  background-image: url(panelbg.jpg);
+
+
+}
+
+.front{
+
+}
+
+
+.text {
+    transition:transform 0.7s ;
+    opacity:1;
+  }
